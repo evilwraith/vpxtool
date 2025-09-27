@@ -34,7 +34,7 @@ wild = "2.2.1"
 
 is_executable = "1.0.5"
 regex = { version = "1.11.2", features = [] }
-vpin = { git = "https://github.com/evilwraith/vpin", branch = "main" }
+vpin = { version = "0.18.0" }
 
 edit = "0.1.5"
 pinmame-nvram = "0.4.1"
