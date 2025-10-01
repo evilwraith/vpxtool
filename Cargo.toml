@@ -19,7 +19,7 @@ name = "vpxtool"
 
 [dependencies]
 base64 = "0.22.1"
-clap = { version = "4.5.47", features = ["derive", "string"] }
+clap = { version = "4.5.48", features = ["derive", "string"] }
 colored = "3.0.0"
 console = "0.16.1"
 dialoguer = { version = "0.12.0", features = ["fuzzy-select"] }
@@ -33,7 +33,7 @@ shellexpand = "3.1.1"
 wild = "2.2.1"
 
 is_executable = "1.0.5"
-regex = { version = "1.11.2", features = [] }
+regex = { version = "1.11.3", features = [] }
 vpin = { version = "0.18.0" }
 
 edit = "0.1.5"
@@ -44,8 +44,8 @@ image = "0.25.8"
 chrono = { version = "0.4.42", default-features = false, features = ["clock"] }
 rust-ini = "0.21.3"
 dirs = "6.0.0"
-toml = "0.9.5"
-serde = { version = "1.0.219", features = ["derive"] }
+toml = "0.9.7"
+serde = { version = "1.0.228", features = ["derive"] }
 log = "0.4.28"
 env_logger = "0.11.5"
 figment = { version = "0.10", features = ["toml", "env"] }
